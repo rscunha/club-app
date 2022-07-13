@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # b2c_app
 
 A new Flutter project.
@@ -14,3 +15,7 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# club-app
+Club app used to build relationship with suppliers and delivery sales order from fans to them 
+>>>>>>> 9231eb05a058b8f570173ea3889dc88961e4cd5a
