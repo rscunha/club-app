@@ -1,5 +1,8 @@
 # This is a generated file; do not edit or check into version control.
-flutter_appauth=/Users/ricardocunha/Applications/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_appauth-2.4.1/
+firebase_auth=/Users/ricardocunha/Applications/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth-3.4.2/
+firebase_auth_web=/Users/ricardocunha/Applications/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth_web-4.0.0/
+firebase_core=/Users/ricardocunha/Applications/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-1.19.2/
+firebase_core_web=/Users/ricardocunha/Applications/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-1.7.0/
 flutter_secure_storage=/Users/ricardocunha/Applications/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_secure_storage-5.0.2/
 flutter_secure_storage_linux=/Users/ricardocunha/Applications/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_secure_storage_linux-1.1.0/
 flutter_secure_storage_macos=/Users/ricardocunha/Applications/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_secure_storage_macos-1.1.0/
