@@ -3,6 +3,7 @@
 import 'package:b2c_app/service/auth/auth_service.dart';
 import 'package:b2c_app/service/auth/app_user.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class FirebaseAuthService extends AuthService {
   final FirebaseAuth _firebaseAuth = FirebaseAuth.instance;
@@ -57,4 +58,8 @@ class FirebaseAuthService extends AuthService {
 
     return _userFromFirebase(credential.user);
   }
+
+  final authServiceProvider = Provider<AuthService>((ref) {
+    return FirebaseAuthService();
+  });
 }
