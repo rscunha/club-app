@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:b2c_app/service/auth/app_user.dart';
 import 'package:b2c_app/service/auth/provders/firebase/firebase_auth_service.dart';
 import 'package:b2c_app/service/auth/provders/providers.default.dart';
@@ -11,13 +13,12 @@ class AuthServiceAdapter {
 
   final AuthServiceType type;
 
-  AuthService? create() {
-    AuthService? authService;
+  AuthService create() {
+    AuthService authService;
 
-    if (type == AuthServiceType.firebase) {
-      authService = FirebaseAuthService();
-    }
-
+    //if (type == AuthServiceType.firebase) {
+    authService = FirebaseAuthService();
+    // }
     return authService;
   }
 }
@@ -31,5 +32,5 @@ final authServiceAdapter = Provider<AuthServiceAdapter>((ref) {
 
 final authStateChangeProvider = StreamProvider.autoDispose<AppUser?>((ref) {
   final adapter = ref.watch(authServiceAdapter);
-  return adapter.create()!.onAuthStateChanged;
+  return adapter.create().onAuthStateChanged;
 });

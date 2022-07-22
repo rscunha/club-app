@@ -1,10 +1,16 @@
 # This is a generated file; do not edit or check into version control.
 firebase_auth=/Users/ricardocunha/Applications/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth-3.4.2/
 firebase_auth_web=/Users/ricardocunha/Applications/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth_web-4.0.0/
-firebase_core=/Users/ricardocunha/Applications/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-1.19.2/
-firebase_core_web=/Users/ricardocunha/Applications/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-1.7.0/
+firebase_core=/Users/ricardocunha/Applications/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-1.20.0/
+firebase_core_web=/Users/ricardocunha/Applications/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-1.7.1/
 flutter_secure_storage=/Users/ricardocunha/Applications/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_secure_storage-5.0.2/
 flutter_secure_storage_linux=/Users/ricardocunha/Applications/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_secure_storage_linux-1.1.0/
 flutter_secure_storage_macos=/Users/ricardocunha/Applications/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_secure_storage_macos-1.1.0/
 flutter_secure_storage_web=/Users/ricardocunha/Applications/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_secure_storage_web-1.0.2/
 flutter_secure_storage_windows=/Users/ricardocunha/Applications/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_secure_storage_windows-1.1.2/
+path_provider=/Users/ricardocunha/Applications/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-2.0.11/
+path_provider_android=/Users/ricardocunha/Applications/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_android-2.0.16/
+path_provider_ios=/Users/ricardocunha/Applications/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_ios-2.0.10/
+path_provider_linux=/Users/ricardocunha/Applications/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-2.1.7/
+path_provider_macos=/Users/ricardocunha/Applications/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_macos-2.0.6/
+path_provider_windows=/Users/ricardocunha/Applications/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_windows-2.1.0/
