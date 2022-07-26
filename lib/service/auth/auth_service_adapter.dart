@@ -1,7 +1,8 @@
-//import 'package:club_app/service/auth/app_user.dart';
+import 'package:club_app/service/auth/app_user.dart';
 import 'package:club_app/service/auth/provders/firebase/firebase_auth_service.dart';
-//import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'auth_service.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:club_app/service/auth/auth_service.dart';
+import 'package:club_app/service/auth/provders/providers.default.dart';
 
 enum AuthServiceType { firebase, other }
 
@@ -19,7 +20,7 @@ class AuthServiceAdapter {
     return authService;
   }
 }
-/*
+
 final authServiceAdapter = Provider<AuthServiceAdapter>((ref) {
   const defaultProvider = String.fromEnvironment('DEFAULT_PROVIDER',
       defaultValue: Providers.defaultProvider);
@@ -30,4 +31,4 @@ final authServiceAdapter = Provider<AuthServiceAdapter>((ref) {
 final authStateChangeProvider = StreamProvider.autoDispose<AppUser?>((ref) {
   final adapter = ref.watch(authServiceAdapter);
   return adapter.create().onAuthStateChanged;
-});*/
+});
