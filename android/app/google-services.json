@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "733480386698",
+    "project_id": "fertyl-club",
+    "storage_bucket": "fertyl-club.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733480386698:android:e8a9c97a5d2e9a3134ed73",
+        "android_client_info": {
+          "package_name": "com.example.club_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "733480386698-incislqktj7uslv2d7hu12jda6b9np71.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiQrINdauBGsp81Q63jXWGJ_EeVa2mLLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "733480386698-incislqktj7uslv2d7hu12jda6b9np71.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "733480386698-br8m82upc71tkrb6grs08ktttdl24cjj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.fertyl.mobile.b2cApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
